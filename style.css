@@ -1,0 +1,67 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+
+    color: rgb(142, 142, 147);
+    background-color: rgb(28, 28, 30);
+}
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(44, 44, 46);
+}
+#navbar header{
+    color: rgb(242, 242, 247);
+    
+}
+header{
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+.vertical-menu{
+    width: 300px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgb(44, 44, 46);
+    background-color: rgb(58, 58, 60);
+    
+    
+}
+.vertical-menu a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: rgb(142, 142, 147);
+    color: rgb(174, 174, 178);
+
+}
+.vertical-menu a:hover{
+    color: rgb(229, 229, 234);
+}
+.vertical-menu a:active{
+    color: rgb(242, 242, 247);
+}
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+    
+}
+.main-section header{
+    color: rgb(0, 132, 255);
+    text-align: left;
+}
+.main-section article{
+    margin-left: 20px;
+}
