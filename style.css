@@ -37,7 +37,8 @@ header{
     
 }
 .vertical-menu a{
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 12px;
     text-decoration: none;
     font-size: 1.1em;
@@ -64,4 +65,24 @@ header{
 }
 .main-section article{
     margin-left: 20px;
+}
+code{
+
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    color: rgb(229, 229, 234);
+    background-color: rgb(142, 142, 147);
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+@media (max-width: 600px) {
+  
+ 
 }
